@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <style>
+            form{
+                width: fit-content;
+            }
+            label{
+                color: aqua;
+                font-size: large;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            input [type="text"]{
+                color: rgb(red, green, blue);
+                background: bisque;
+                width: 180px;
+                text-transform: uppercase;
+                border-radius: 10px;
+
+            }
+        
+         </style>
+    </head>
+    <body>
+        <h2>Student Regitration Form</h2>
+        <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><lable>First Name</lable> </td>
+                    <td><input type="text" placeholder="only first name please" autofocus required ></td>
+                </tr>
+                <tr>
+                    <td><label>Last Name</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Mobile</label></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                <td><label>Email Address</label> </td>
+                <td><input type="email" placeholder="abc@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><lable>Graduation</lable></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Date Of Birth</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Pass Out Year</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Country</label></td>
+                    <td><input type="text" value="India" disabled></td>
+                </tr>
+                <tr>
+                    <td><label>Citizenship</label></td>
+                    <td><input type="text" value="India" readonly></td>
+                </tr>
+                <tr>
+                    <td><lable>Profile photo</lable></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><lable>Upload Marksheet</lable></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label>Graduation</label></td>
+                    <td>
+                        <select >
+                            <option>B.E</option>
+                            <option>M.E</option>
+                            <option>B.com</option>
+                            <option>Phd</option>
+                            <option>Msc</option>
+                            <option>Bsc</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><lable>Training</lable></td>
+                    <td><input type="checkbox"><lable>Angular</lable>
+                    <input type="checkbox"><lable>React</lable>
+                    <input type="checkbox"><lable>Java</lable>
+                    <input type="checkbox"><lable>Testing</lable>
+                
+                </td>
+
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="gender"><lable>Male</lable>
+                        <input type="radio" name="gender"><label>Femle</label>
+                        <input type="radio" name="gender"><label>Other</label>
+                   </td>
+                </tr>
+                <tr>
+                    <td>Permanent Address</td>
+                    <td><textarea row "110" cols="80"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                </tr>
+            </tbody>
+        </table>
+        </form>
+        <p><strong>SSO sign in option </strong></p>
+    
+
+
+
+
+
+
+
+    </body>
+</html>
